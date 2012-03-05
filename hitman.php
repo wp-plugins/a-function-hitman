@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Hitman
+Plugin Name: Fuction Tweaker
 Plugin URI: http://www.thulasidas.com/adsense
 Description: A plugin to redefine plugin url functions using APD
-Version: 1.00
+Version: 1.10
 Author: Manoj Thulasidas
 Author URI: http://www.thulasidas.com
 */
@@ -82,13 +82,13 @@ function hitman_admin() {
   $hmOptions['funList'] = $funs ; // TODO: expose the list to the end-user
   if (isset($_POST['kill_functions'])) {
     $status = whack_em($funs) ;
-    echo "<div class='updated'><p>Hitman activated: $status</p></div>" ;
+    echo "<div class='updated'><p>Function Tweaker activated: $status</p></div>" ;
     $hmOptions['kill'] = true ;
     update_option($mOptions, $hmOptions) ;
   }
   if (isset($_POST['save_functions'])) {
     $status = whack_em($funs, true) ;
-    echo "<div class='updated'><p>Hitman revoked: $status</p></div>" ;
+    echo "<div class='updated'><p>Function Tweaker revoked: $status</p></div>" ;
     $hmOptions['kill'] = false ;
     update_option($mOptions, $hmOptions) ;
   }
@@ -98,7 +98,7 @@ function hitman_admin() {
   }
 ?>
 <div class="wrap" style="width:800px">
-<h2>A Function Hitman
+<h2>Function Tweaker
 <a href="http://validator.w3.org/" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" title="Easy AdSense Admin Page is certified Valid XHTML 1.0 Transitional" height="31" width="88" class="alignright"/></a>
 </h2>
 <hr />
@@ -121,7 +121,7 @@ function hitman_admin() {
 
 function hitman_ap() {
   if (function_exists('add_options_page')) {
-    $mName = 'A Function Hitman' ;
+    $mName = 'Function Tweaker' ;
     add_options_page($mName, $mName, 9, basename(__FILE__), 'hitman_admin' );
   }
 }

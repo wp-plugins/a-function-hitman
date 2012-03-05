@@ -1,10 +1,10 @@
-=== Hitman ===
+=== Function Tweaker ===
 Contributors: manojtd
 Donate link: http://buy.ads-ez.com/
-Tags: function, plugin_dir_url, plugins_url
+Tags: functions, redefine, plugin_dir_url, plugins_url
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 1.00
+Stable tag: 1.10
 
 Redefines the functions plugin_dir_url, plugins_url to work properly if you have symbolic links in your WordPress installation.
 
@@ -23,9 +23,9 @@ None for now.
 
 == Installation ==
 
-1. Upload the Hitman plugin (the whole hitman) to the '/wp-content/plugins/' directory.
+1. Upload the Function Tweaker plugin (the whole `a-function-hitman` folder) to the '/wp-content/plugins/' directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to the Setup -> A Function Hitman and kill or revive the functions.
+3. Go to the Setup -> Function Tweaker and kill or revive the functions.
 
 If you have other functions you would like to modify, please edit the plugin code `hitman.php` and look for the variable `$funs` around line 80. Add to the list the name of the function you want to redefine.
 
@@ -35,4 +35,5 @@ You the provide your own defintions of the function in the file `redefinedFuncti
 
 == Change Log ==
 
+* V1.10: Renaming the plugin to Function Tweaker since Hitman probably did not make any sense. [Mar 6. 2012]
 * V1.00: Initial release. [Mar 5, 2012]
