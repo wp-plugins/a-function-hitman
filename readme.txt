@@ -52,7 +52,7 @@ Here is an example of the wrong output:
 After correcting the issue, the right output is:
 
  - Output of `plugin_dir_url()`: `http://localhost/dev/blog/wp-content/plugins/hitman/`
- - Output of `plugins_url()`: `http://localhost/dev/blog/wp-content/plugins/Applications/XAMPP/xamppfiles/htdocs/dev/blog-assets/wp-content/plugins/hitman/hitman.php`
+ - Output of `plugins_url()`: `http://localhost/dev/blog/wp-content/plugins/hitman/hitman.php`
  - Output of `plugin_basename()`: `hitman/hitman.php`
 
 = How do I use it? =
