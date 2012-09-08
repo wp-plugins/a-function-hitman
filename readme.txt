@@ -4,7 +4,7 @@ Donate link: http://affiliates.thulasidas.com
 Tags: developer tool, functions, redefine, plugin_dir_url, plugins_url, plugin_basename
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 1.20
+Stable tag: 1.21
 License: GPLv2 or later
 
 Developer Tool: Redefines the functions plugin_dir_url, plugins_url to work properly if you have symbolic links in your WordPress installation.
@@ -21,7 +21,7 @@ Once again, this plugin is meant for advanced users and may make your blog insta
 
 == Upgrade Notice ==
 
-Quite a bit of improvements and documentation changes.
+Minor documentation change.
 
 == Screenshots ==
 
@@ -76,6 +76,7 @@ In most cases, defining your `WP_CONTENT_DIR` properly is good enough to solve t
 
 == Change Log ==
 
+* V1.21: Minor documentation change. [Sep 9, 2012]
 * V1.20: Quite a bit of improvements and documentation changes. [Sep 9, 2012]
 * V1.10: Renaming the plugin to Function Tweaker since Hitman probably did not make any sense. [Mar 6. 2012]
 * V1.00: Initial release. [Mar 5, 2012]
