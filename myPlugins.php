@@ -11,7 +11,7 @@ $myPlugins['ezpaypal-pro'] =
     'share' => false,
     'long' => false,
     'blurb' => '<em><strong>ezPayPal Pro</strong></em> is the simplest possible way to sell your digital goods online. This standalone PHP package ',
-    'desc' => 'helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link',
+    'desc' => 'helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link. [ezPayPal is a standalone PHP package, which runs independent of WordPress.]',
     'title' => 'Do you have an application, PHP package, photograph, PDF book (or any other downloadable item) to sell? Find the set up of a shopping cart system too overwhelming? <em>ezPayPal</em> may be the right solution for you.',
     'pro' => 'The Pro version adds a whole slew of features: Data Security, Sandbox Mode, Template Editors, Automatic Handling of returns, refunds, e-chques etc, Sales Editor, Email Tools, Product Version support, Batch Product File Uploads, Data backup/restore/migration tools and so on. It can also be enhanced with optional modules like Affiliate Package, Reporting Tools etc. This powerful and professional package  provides you with a complete and robust solution for your online business.  <em><strong>ezPayPal Pro</strong></em> provides the most robust and feature-complete solution to sell your digital goods online. It helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link. The whole flow runs fully automated and designed to run unattended. <em><strong>ezPayPal</strong></em> manages all aspects of selling your digital goods.') ;
 
@@ -33,7 +33,7 @@ $myPlugins['easy-paypal'] =
     'share' => false,
     'long' => false,
     'blurb' => '<em><strong>Easy PayPal</strong></em> is the plugin version of ezPayPal, the simplest possible way to sell your digital goods online. This premium plugin ',
-    'desc' => 'helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link',
+    'desc' => 'helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link. [Easy PayPal is a Premium WordPress plugin.]',
     'title' => 'Do you have an application, PHP package, photograph, PDF book (or any other downloadable item) to sell from your blog? Find the set up of a shopping cart system too overwhelming? <em>ezPayPal</em> may be the right solution for you.',
     'pro' => 'The Pro version adds a whole slew of features: Data Security, Sandbox Mode, Template Editors, Automatic Handling of returns, refunds, e-chques etc, Sales Editor, Email Tools, Product Version support, Batch Product File Uploads, Data backup/restore/migration tools and so on. It can also be enhanced with optional modules like Affiliate Package, Reporting Tools etc. This powerful and professional package  provides you with a complete and robust solution for your online business.  <em><strong>ezPayPal Pro</strong></em> provides the most robust and feature-complete solution to sell your digital goods online. It helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link. The whole flow runs fully automated and designed to run unattended. <em><strong>ezPayPal</strong></em> manages all aspects of selling your digital goods.') ;
 
@@ -94,6 +94,21 @@ $myPlugins['theme-tweaker'] =
 <li>Ability to create a child theme so that your changes can be applied even when the underlying theme is updated.</li>
 <li>Scanning for *all* the style files in your theme directory to find all possible color definitions.</li>') ;
 
+$myPlugins['easy-quiz'] =
+  array('value' => 'Easy Quiz',
+    'support' => 'UKPDMR89Z22DN',
+    'price' => '2.95',
+    'share' => false,
+    'long' => true,
+    'blurb' =>'<em><strong>Easy Quiz</strong></em> is a jQuery quiz plugin that ',
+    'desc' => 'runs a simple but elegant quiz on your posts or pages.',
+    'title' => '<em><strong>Easy Quiz</strong></em> displays the statements or questions you type into your post or page (surrounded by <code>[ezquiz][/ezquiz]</code> tag) as a neat quiz for your reader on his/her browser. The answers are not transfered to your server, and there is no extra server load in running the quiz.',
+    'pro' => '<em><strong>Easy Quiz</strong></em>, in its lite form, comes with a standard color scheme. If you would like to modify the color scheme, please consider the Pro version. It gives you color pickers for all aspects of the quiz display so that you can perfectly match your theme. It also lets you have different types of quizes (true-or-false, fill-in-the-blanks, multiple-choice, etc.), which you can even mix and match within one test. The Lite version of the plugin is fully functional, but is limited to only true-or-false questions.',
+    'benefits' => '<li>Different types of quizes (true-or-false, fill-in-the-blanks, multiple-choice, etc.).</li>
+<li>Ability to mix and match different types of questions within one quiz.</li>
+<li>Ability to tweak the quiz display colors.</li>
+<li>Color pickers for customization with live preview on the admin page.</li>') ;
+
 $myPlugins['easy-latex'] =
   array('value' => 'Easy WP LaTeX',
     'support' => 'UFFMGT9QHJY2N',
@@ -147,6 +162,7 @@ $myPlugins['ezpaypal'] =
     'price' => '4.95',
     'share' => false,
     'long' => true,
+    'hide' => true,
     'blurb' => '<em><strong>ezPayPal</strong></em> is the simplest possible way to sell your digital goods online. Do you have an application, PHP package, photograph, PDF book (or any other downloadable item) to sell? Find the set up of a shopping cart system too overwhelming? <em>ezPayPal</em> may be the right solution for you.  It ',
     'desc' => 'gets you started with your online business. Easy and simple!',
     'title' => '<em><strong>ezPayPal</strong></em> helps you quickly set up an online store to sell any downloadable item, where your buyers can pay for it and get an automatic, expiring download link. The whole flow is fully automated and designed to run unattended.',
@@ -162,8 +178,7 @@ $myPlugins['ezpaypal'] =
 <li><em>Additional Tools</em>: The <em>Pro</em> version also gives you a bunch of tools (php example files) that can help you migrate your existing sales data or product definitions.</li>
 <li><em>Email facilities</em>: You can select a number of your buyers to notify, for example, of a critical update of your products, or of a free upgrade opportunity.</li>
 <li><em>Upgradeable Products</em>: You can define products that are upgradeable. For instance, you can sell a short eBook at an introductory price. If your buyer likes it, he has the option of buying the full book by paying the difference.</li>
-',
-    'kind' => 'app') ;
+') ;
 
 if (!function_exists('renderInvite')) {
  function renderInvite($plg, $plgName) {
@@ -195,7 +210,7 @@ function buttonwhich(message) {
   document.getElementById("nbutton").disabled = 'true';
   document.getElementById("killInvites").value = 'true' ;
   setTimeout('hideInvite()', 5000);
-  if (message == 'Yes') window.open('http://buy.thulasidas.com/$plgName') ;
+  if (message == 'Yes') popupwindow('http://buy.thulasidas.com/$plgName','Get {$plg['value']}', 1024, 768) ;
   if (message == 'No') document.getElementById("nbutton").value = 'Thank you for using $plgLongName! Please save options to hide this box forever';
 }
 </script>
@@ -218,9 +233,9 @@ if (!function_exists('renderRating')) {
      if (!$killable) $display = "style='display:none'" ;
 echo <<<ENDRATING
 <div class='updated' id='rating'>
-<p>Thanks for using <i><b>$plgLongName</b></i>! $msg<br />
-If it works and your are satisfied, why not <a href='http://wordpress.org/extend/plugins/$plgKey/'>rate it</a>
-and <a href='http://wordpress.org/extend/plugins/$plgKey/'>recommend it</a> to others? :-)
+<p>Thanks for using <i><b>$plgLongName</b></i>! $msg <br />
+If you are satisfied with how well it works, why not <a href='http://wordpress.org/extend/plugins/$plgKey/' onclick="popupwindow('http://wordpress.org/extend/plugins/$plgKey/','Rate it', 1024, 768);return false;">rate it</a>
+and <a href='http://wordpress.org/extend/plugins/$plgKey/' <a href='http://wordpress.org/extend/plugins/$plgKey/' onclick="popupwindow('http://wordpress.org/extend/plugins/$plgKey/','Rate it', 1024, 768);return false;">recommend it</a> to others? :-)
 <small style='font-weight:normal;'><a id='hideRating' $display href='#' style='float:right; display:block; border:none;'  onmouseover="Tip('$hideTip', WIDTH, 200, CLICKCLOSE, true, TITLE, 'Hide this Box')" onmouseout="UnTip()" onclick = "hideme()">
 Don't show this anymore</a></small></p></div>
 <input type="hidden" id="killRating" name="killRating" value="" />
