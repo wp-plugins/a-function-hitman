@@ -2,11 +2,10 @@
 
 $myPlugins = array() ;
 
-$needPHP5 = ' <p> <font color="#c00">Note that this plugin requires PHPv5.0+. Please use the Lite version first to ensure that it works before buying the Pro version. If it does not work on your web host, consider the amazing <a href="http://buy.thulasidas.com/easy-adsense/" title="The most popular plugin to insert AdSense on your blog"><em><strong>Easy AdSense Pro</strong></em></a> for all your advertising needs. It can insert non-AdSense blocks as well.</font></p>' ;
+$needPHP5 = ' <br /> <span style="font-color:#c00;">Note that this plugin requires PHPv5.0+. Please use the Lite version first to ensure that it works before buying the Pro version. If it does not work on your web host, consider the amazing <a href="http://buy.thulasidas.com/easy-adsense/" title="The most popular plugin to insert AdSense on your blog"><em><strong>Easy AdSense Pro</strong></em></a> for all your advertising needs. It can insert non-AdSense blocks as well.</span>' ;
 
 $myPlugins['ezpaypal-pro'] =
   array('value' => 'ezPayPal',
-    'support' => 'YBB5HXSJ97C7E',
     'price' => '9.95',
     'share' => false,
     'long' => false,
@@ -17,7 +16,6 @@ $myPlugins['ezpaypal-pro'] =
 
 $myPlugins['easy-ads'] =
   array('value' => 'Easy Ads',
-    'support' => 'YBB5HXSJ97C7E',
     'price' => '8.95',
     'share' => true,
     'long' => false,
@@ -28,7 +26,6 @@ $myPlugins['easy-ads'] =
 
 $myPlugins['easy-paypal'] =
   array('value' => 'Easy PayPal',
-    'support' => 'YBB5HXSJ97C7E',
     'price' => '6.95',
     'share' => false,
     'long' => false,
@@ -39,11 +36,9 @@ $myPlugins['easy-paypal'] =
 
 $myPlugins['google-adsense'] =
   array('value' => 'Google AdSense',
-    'support' => '6M4A94KQMA9UL',
     'price' => '5.95',
     'share' => true,
     'long' => false,
-    'hide' => true,
     'blurb' => '<em><strong>Google AdSense</strong></em> is a single-provider version of <em><strong>Easy Ads</strong></em> specialized for Google AdSense serving. If you are planning to use more than two providers, it may be easier and more economical to use <em><strong>Easy Ads</strong></em>. <em><strong>Google AdSense</strong></em> ',
     'desc' => 'provides you with a fully streamlined interface to manage Google AdSense on your blog.',
     'title' => '<a href="http://buy.thulasidas.com/plugins/google-adsense/" title="A new plugin to handle Google"><em><strong>Google AdSense</strong></em></a> gives you a specialized and intuitive interface to manage AdSense ads on your blog, with size selectors, widget options, color-picker to customize your colors, etc. It is a new generation plugin with a fancy, tabbed interface.',
@@ -51,7 +46,6 @@ $myPlugins['google-adsense'] =
 
 $myPlugins['easy-adsense'] =
   array('value' => 'Easy AdSense',
-    'support' => 'HYZ5AWPYSC8VA',
     'price' => '4.95',
     'share' => true,
     'long' => true,
@@ -59,16 +53,17 @@ $myPlugins['easy-adsense'] =
     'desc' => 'manages all aspects of Google AdSense for your blog. Easy and complete!',
     'title' => '<em><strong>Easy AdSense</strong></em> provides a very easy way to generate revenue from your blog using Google AdSense. It can insert ads into posts and sidebar, and add a Google Search box. With its full set of features, <em><strong>Easy AdSense</strong></em> is perhaps the first plugin to give you a complete solution for everything AdSense-related.',
     'pro' => 'The Lite version of <em><strong>Easy AdSense</strong></em> is fully functional. But the Pro version gives you more features and control. In the Pro version, you get a filter to minimize the chance of your AdSense account getting banned. It uses a fast and effective keyword matching algorithm to examine the contents (including comments that you may have no control over) of each page on the fly and determines whether the page content could look offensive to Google. If so, it prevents your ads from appearing on those pages. And you can tweak the strength of the algorithm. The Pro version also lets you specify a list of computers where your ads will not be shown, in order to prevent accidental clicks on your own ads -- one of the main reasons AdSense bans you.',
-    'benefits' => '<li>A safety filter to help you maintain your AdSense account standing. This fast and efficient filter will help keep your AdSense account in good standing by suppressing your ads on pages that may violate Google policies. For instance, if a visitor leaves a comment deemed offensive by Google, this filter will kick in as remove your ads from that page.</li>
-<li>Ability to suppress your ads on some IPs to prevent accidental clicks on your own ads -- one of the main reasons for getting your AdSense account banned. It will also help prevent intentional clicks (by your jealous competitor, for instance).</li>
-<li>A compatibility mode, if the ad insertion messes up the page layout. Some poorly coded themes may get your pages messed up by ad insertion. The compatibility mode will help prevent it.</li>
+    'benefits' => '<li>Safe Content filter: To ensure that your Google AdSense ads show only on those pages that seem to comply with Google AdSense policies, which can be important since some comments may render your pages inconsistent with those policies.</li>
+<li>IP filter: Ability to specify a list of computers where your ads will not be shown, in order to prevent accidental clicks on your own ads -- one of the main reasons AdSense bans you. These features will minimize your chance of getting banned.</li>
+<li>Compatibility mode: To solve the issue of the ad insertion messing up your page appearances when using some themes.</li>
+<li>Shortcode support: Show the ads only on the pages or posts you want, and exactly where you want them.</li>
+<li>Mobile support: Ability to suppress ads on mobile devices.</li>
 <li>Ability to show a configurable number of ads on Excerpts (which make up the home page in some themes)</li>
 <li>Real text-wrapping option in Leadout ad blocks. In the Lite version, text-wrapping in the lead-out ad block may fail in some cases.</li>'
 ) ;
 
 $myPlugins['adsense-now'] =
   array('value' => 'AdSense Now!',
-    'support' => 'UE28AQZUTTX8Q',
     'price' => '3.95',
     'share' => true,
     'long' => true,
@@ -82,7 +77,6 @@ $myPlugins['adsense-now'] =
 
 $myPlugins['theme-tweaker'] =
   array('value' => 'Theme Tweaker',
-    'support' => 'UKPDMR89Z22DN',
     'price' => '3.95',
     'share' => false,
     'long' => true,
@@ -96,7 +90,6 @@ $myPlugins['theme-tweaker'] =
 
 $myPlugins['easy-quiz'] =
   array('value' => 'Easy Quiz',
-    'support' => 'UKPDMR89Z22DN',
     'price' => '2.95',
     'share' => false,
     'long' => true,
@@ -109,9 +102,22 @@ $myPlugins['easy-quiz'] =
 <li>Ability to tweak the quiz display colors.</li>
 <li>Color pickers for customization with live preview on the admin page.</li>') ;
 
+$myPlugins['easy-text-links'] =
+  array('value' => 'Easy Text Links',
+    'price' => '7.95',
+    'share' => false,
+    'long' => true,
+    'blurb' =>'<em><strong>Easy Text Links</strong></em> is a robust and modern advertising plugin that ',
+    'desc' => 'helps you sell and manage text links on your blog.',
+    'title' => '<em><strong>Easy Text Links</strong></em> helps you make extra revenue from your blog by selling text links. Text link advertising can be significantly more lucrative than contextual ads. This plugin automates the insertion and expiration of the links, and helps you with quick reminder emails to your advertisers. If you get a lot of advertising enquiries for text links, this is the right plugin for you.',
+    'pro' => '<em><strong>Easy Text Links</strong></em>, in its light form, is already a powerful plugin. The Pro version lets you integrate seamlessly with Easy PayPal and fully automate your link sales, expiration and reminder emails.',
+    'benefits' => '<li>Automated link sales and management.</li>
+<li>Automated email reminders, and subscription based links.</li>
+<li>Choice of several attractive Advertise Here images.</li>
+<li>Dedicated dedicated and multi-insertable widget for displaying your links.</li>') ;
+
 $myPlugins['easy-latex'] =
   array('value' => 'Easy WP LaTeX',
-    'support' => 'UFFMGT9QHJY2N',
     'price' => '2.95',
     'share' => false,
     'long' => true,
@@ -122,7 +128,6 @@ $myPlugins['easy-latex'] =
 
 $myPlugins['easy-translator'] =
   array('value' => 'Easy Translator',
-    'support' => '48XZQ7LRDAV28',
     'price' => '1.95' ,
     'share' => false,
     'long' => true,
@@ -133,7 +138,6 @@ $myPlugins['easy-translator'] =
 
 $myPlugins['unreal-universe'] =
   array('value' => 'The Unreal Universe - eBook',
-    'support' => '',
     'url' => 'http://www.theunrealuniverse.com',
     'amazon' => 'http://www.amazon.com/exec/obidos/ASIN/9810575947/unrblo-20',
     'price' => '1.49',
@@ -145,9 +149,21 @@ $myPlugins['unreal-universe'] =
     'pro' => '',
     'kind' =>'book') ;
 
+$myPlugins['pqd'] =
+  array('value' => 'How Does a Bank Work? - eBook',
+    'url' => 'http://pqd.thulasidas.com',
+    'amazon' => 'http://www.amazon.com/exec/obidos/ASIN/0470745703/unrblo-20',
+    'price' => '5.49',
+    'share' => false,
+    'long' => true,
+    'blurb' => 'This eBook companion to <em><strong>Principles of Quantitative Development</strong></em> is a lucid and succinct exposé on the trade life cycle and the business groups involved in managing it, bringing together the big picture of how a trade flows through the systems, and the role of a quantitative professional in the organization. This compelling book ',
+    'desc' => 'looks at the need and demand for in-house trading platforms, addressing the current trends in the industry. It then looks at the trade life cycle and its participants, from beginning to end, and then the functions within the front, middle and back office, giving the reader a full understanding and appreciation of the perspectives and needs of each function.',
+    'title' => '<em><strong>Principles of Quantitative Development</strong></em> has been enthusiastically endorsed by the leading professionals in the quantitative finance space, including <strong>Paul Wilmott</strong>.',
+    'pro' => '',
+    'kind' =>'book') ;
+
 $myPlugins['iphoto-tagger'] =
   array('value' => 'iPhoto Tagger -- Helper for iPhoto imports',
-    'support' => '',
     'price' => '1.99',
     'share' => false,
     'long' => true,
@@ -198,7 +214,7 @@ The Pro version of this plugin gives you more features and benefits. For instanc
 <ol>
 $benefits
 </ol>
-And much more. New features and bug fixes will first appear in the Pro version before being ported to this freely distributed Lite edition. </p>
+And much more. New features and bug fixes will first appear in the Pro version before being ported to this freely distributed Lite edition. <br />
 <input onmouseover="Tip('$yesTip', WIDTH, 200, CLICKCLOSE, true, TITLE, '$yesTitle')" onmouseout="UnTip()" type = "button" id = "ybutton" value = "Go Pro!" onclick = "buttonwhich('Yes')" />
 <input onmouseover="Tip('$noTip', WIDTH, 200, CLICKCLOSE, true, TITLE, '$noTitle')" onmouseout="UnTip()" type = "button" id = "nbutton" value = "No thanks" onclick = "buttonwhich('No')" />
 <script type = "text/javascript">
@@ -235,7 +251,7 @@ echo <<<ENDRATING
 <div class='updated' id='rating'>
 <p>Thanks for using <i><b>$plgLongName</b></i>! $msg <br />
 If you are satisfied with how well it works, why not <a href='http://wordpress.org/extend/plugins/$plgKey/' onclick="popupwindow('http://wordpress.org/extend/plugins/$plgKey/','Rate it', 1024, 768);return false;">rate it</a>
-and <a href='http://wordpress.org/extend/plugins/$plgKey/' <a href='http://wordpress.org/extend/plugins/$plgKey/' onclick="popupwindow('http://wordpress.org/extend/plugins/$plgKey/','Rate it', 1024, 768);return false;">recommend it</a> to others? :-)
+and <a href='http://wordpress.org/extend/plugins/$plgKey/' onclick="popupwindow('http://wordpress.org/extend/plugins/$plgKey/','Rate it', 1024, 768);return false;">recommend it</a> to others? :-)
 <small style='font-weight:normal;'><a id='hideRating' $display href='#' style='float:right; display:block; border:none;'  onmouseover="Tip('$hideTip', WIDTH, 200, CLICKCLOSE, true, TITLE, 'Hide this Box')" onmouseout="UnTip()" onclick = "hideme()">
 Don't show this anymore</a></small></p></div>
 <input type="hidden" id="killRating" name="killRating" value="" />

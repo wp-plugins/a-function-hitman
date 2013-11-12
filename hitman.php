@@ -3,7 +3,7 @@
 Plugin Name: Fuction Tweaker
 Plugin URI: http://www.thulasidas.com/adsense
 Description: A plugin to redefine plugin url functions using APD
-Version: 1.30
+Version: 1.40
 Author: Manoj Thulasidas
 Author URI: http://www.thulasidas.com
 */
