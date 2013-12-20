@@ -3,8 +3,8 @@ Contributors: manojtd
 Donate link: http://buy.thulasidas.com
 Tags: developer tool, functions, redefine, plugin_dir_url, plugins_url, plugin_basename
 Requires at least: 3.1
-Tested up to: 3.7
-Stable tag: 1.40
+Tested up to: 3.8
+Stable tag: 1.50
 License: GPLv2 or later
 
 Developer Tool: Redefines the functions plugin_dir_url, plugins_url to work properly if you have symbolic links in your WordPress installation.
@@ -21,7 +21,7 @@ Once again, this plugin is meant for advanced users and may make your blog insta
 
 == Upgrade Notice ==
 
-Compatibility checks for WordPress V3.7.
+Compatibility checks for WordPress V3.8.
 
 == Screenshots ==
 
@@ -76,6 +76,7 @@ In most cases, defining your `WP_CONTENT_DIR` properly is good enough to solve t
 
 == Change Log ==
 
+* V1.50: Compatibility checks for WordPress V3.8. [Dec 20, 2013]
 * V1.40: Compatibility checks for WordPress V3.7. [Nov 11, 2013]
 * V1.30: Admin interface modifications. [Sep 30, 2012]
 * V1.21: Minor documentation change. [Sep 9, 2012]
