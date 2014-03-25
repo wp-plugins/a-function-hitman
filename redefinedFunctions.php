@@ -23,4 +23,3 @@ if (!function_exists('plugin_basename')) {
     return $baseName ;
   }
 }
-?>

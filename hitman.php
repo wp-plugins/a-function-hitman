@@ -3,7 +3,7 @@
   Plugin Name: Fuction Tweaker
   Plugin URI: http://www.thulasidas.com/adsense
   Description: A plugin to redefine plugin url functions using APD
-  Version: 1.50
+  Version: 2.00
   Author: Manoj Thulasidas
   Author URI: http://www.thulasidas.com
  */
@@ -172,11 +172,8 @@ function hitman_admin() {
     </form>
     <br />
     <hr />
-
   </div>
-  <?php
-  @include(dirname(__FILE__) . '/myPlugins.php');
-  @include (dirname(__FILE__) . '/tail-text.php');
+<?php
 }
 
 function hitman_ap() {

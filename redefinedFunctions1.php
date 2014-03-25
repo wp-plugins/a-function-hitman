@@ -17,4 +17,3 @@ if (!function_exists('plugin_basename')) {
     return str_replace(WP_CONTENT_DIR, '', $ret) ;
   }
 }
-?>
