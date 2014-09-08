@@ -3,7 +3,7 @@
   Plugin Name: Fuction Tweaker
   Plugin URI: http://www.thulasidas.com/adsense
   Description: A plugin to redefine plugin url functions using APD
-  Version: 2.00
+  Version: 2.10
   Author: Manoj Thulasidas
   Author URI: http://www.thulasidas.com
  */
@@ -161,7 +161,7 @@ function hitman_admin() {
         <li>If the function output still does not look right, click on the "Kill Functions" button and then hit the "Test Functions" button again.</li>
         <li>The output should have the right values now.</li>
         <li>If not, sorry, I am out of ideas. You may look at the plugin code in <code>redefinedFunctions*.php</code> and may be able to fix your issues.</li>
-        <li> If you do, please leave a comment here so that others can benefit from your efforts.</li>
+        <li> If you do, please leave a comment <a href='http://wordpress.org/plugins/a-function-hitman/' target=_blank>here</a> so that others can benefit from your efforts.</li>
       </ol>
       <div class="submit">
         <input type="submit" name="test_functions" value="Test Functions" />
