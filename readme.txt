@@ -3,8 +3,8 @@ Contributors: manojtd
 Donate link: http://buy.thulasidas.com
 Tags: developer tool, functions, redefine, plugin_dir_url, plugins_url, plugin_basename
 Requires at least: 3.1
-Tested up to: 4.0
-Stable tag: 2.10
+Tested up to: 4.3
+Stable tag: 2.20
 License: GPLv2 or later
 
 Developer Tool: Redefines the functions plugin_dir_url, plugins_url to work properly if you have symbolic links in your WordPress installation.
@@ -21,13 +21,23 @@ Once again, this plugin is meant for advanced users and may make your blog insta
 
 == Upgrade Notice ==
 
-Compatibility with WP4.0.
+Compatibility with WP4.3.
 
 == Screenshots ==
 
 1. Admin page for Function Tweaker
 
 == Installation ==
+
+= Searching =
+
+The easiest way to install this plugin is to use the WordPress Admin interface. Go to your admin dashboard, find the "Plugins" menu, and click on "Add New". Search for this plugin and click on "Install Now" and follow the WordPress instructions.
+
+= Uploading =
+
+If you want to download it and manually install, you can again use the WordPress dashboard interface. First download the plugin zip file to your local computer. Then go to your admin dashboard, find the "Plugins" menu, and click on "Add New". After clicking on the "Add New" menu item as above, click on "Upload" (below the title "Install Plugins" near the top). Browse for your downloaded zip file, upload it and activate the plugin.
+
+= FTP =
 
 1. Upload the Function Tweaker plugin (the whole `a-function-hitman` folder) to the '/wp-content/plugins/' directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
@@ -76,6 +86,7 @@ In most cases, defining your `WP_CONTENT_DIR` properly is good enough to solve t
 
 == Change Log ==
 
+* V2.20: Compatibility with WP4.3. [Aug 10, 2015]
 * V2.10: Compatibility with WP4.0. [Sep 8, 2014]
 * V2.00: Removing tail-text for compatibility with other plugins. [Mar 24, 2014]
 * V1.51: Minor admin page changes. [Dec 21, 2013]
